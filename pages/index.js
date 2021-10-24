@@ -14,9 +14,9 @@ export default function Home() {
         <title>SpacedOut</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl  lg:pb-28 xl:pb-32">
-          <svg
+      <div className="max-w-7xl mx-auto ">
+        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:pb-28 xl:pb-32 h-screen">
+        <svg
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
             fill="currentColor"
             viewBox="0 0 100 100"
@@ -101,64 +101,62 @@ export default function Home() {
             </Transition>
           </Popover>
 
-          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Data to enrich your</span>{' '}
-                <span className="block text-indigo-600 xl:inline">online business</span>
+                <span className="block xl:inline">Astronauts landing in the</span>{' '}
+                <span className="block text-indigo-600 xl:inline">Moonbeam Ecosystem</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+              A collection of 10K distinct astronauts with exciting back-stories, 
+              crossing the bridge as pioneers on the Moonbeam ecosystem.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="https://discord.gg/QrQXetaR8N"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
-                    Get started
+                    Discord
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="https://twitter.com/spacedoutnft"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Follow Us
                   </a>
                 </div>
               </div>
             </div>
           </main>
+          </div>
+          <div className="lg:absolute lg:inset-y-14 lg:right-0 lg:w-1/2">
+            <img
+                className="w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-screen"
+                src="so-example.png"
+                alt=""
+              />
+            
+          </div>
         </div>
-      </div>
-      <div className="lg:absolute lg:inset-y-14 lg:right-0 lg:w-1/2">
-        <img
-          className="w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-screen"
-          src="so-example.png"
-          alt=""
-        />
-        
-      </div>
 
-      <footer className="text-gray-600 body-font relative bg-white">
+
+      <footer className="text-gray-600 body-font relative">
         <div className="bg-gray-100">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">© 2021 SpacedOut NFT —
               <a href="https://twitter.com/spacedoutnft" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@spacedoutnft</a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-              <a className="mr-3 text-gray-500">
+              <a className="mr-3 text-gray-500" href="https://twitter.com/spacedoutnft">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a cclassName="ml-3 text-gray-500">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                </svg>
+              <a className="ml-3 text-gray-500" href="https://discord.gg/QrQXetaR8N">
+                Discord
               </a>
             </span>
           </div>
